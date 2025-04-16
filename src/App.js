@@ -268,7 +268,7 @@ function generateCity(grid) {
     audioLoader.load('/sounds/city-night.mp3', function (buffer) {
       sound.setBuffer(buffer);
       sound.setLoop(true);
-      sound.setVolume(0.5);
+      sound.setVolume(3);
       sound.play();
     });
   
